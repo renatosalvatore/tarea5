@@ -5,6 +5,7 @@ import { UserContext } from '../Context/UserContext';
 import { useContext } from 'react';
 import Singin from '../components/singin/Singin';
 import Singup from '../components/SingUp/Singup';
+import Productos1 from '../components/Productos/Productos1';
 
 function Navegador() {
 
@@ -29,7 +30,7 @@ function Navegador() {
                 <NavLink to="/Reservaciones" className="navLink">Reservaciones</NavLink>
               </li>}
               {auth.rol=="administrador"&&<li className='navItem'>
-                <NavLink to="/CrearProductos" className="navLink">Crear Productos</NavLink>
+                <NavLink to="/Productos1" className="navLink">Crear Productos</NavLink>
               </li>}
               <li className='navItem'>
                 <NavLink to="/Reserva1" className="navLink">Reservas</NavLink>

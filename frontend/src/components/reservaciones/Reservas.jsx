@@ -12,8 +12,8 @@ function Reservas() {
   
   const getReservas = async() =>{
    await fetch (
-    "http://localhost:3002/reservas/getReservList" 
-
+    "https://bcknd-tarea5.onrender.com/reservas/getReservList" 
+    
    ) 
    .then(resultado =>  resultado.json()).then(respuesta => {
     setReservas (respuesta.data)
@@ -35,7 +35,7 @@ getReservas();
           <th>Nombre</th>
           <th>Telefono</th>
           <th>Fecha</th>
-          <th>Hora</th>
+          <th>Email</th>
           <th>Comensales</th>
         </tr>
       </thead>
@@ -45,9 +45,9 @@ getReservas();
             return(
               <tr>
                 <td>{reserva.nombre}</td>
-                <td>{reserva.telefono}</td>
+                <td>{reserva.fono}</td>
                 <td>{reserva.fecha}</td>
-                <td>{reserva.hora}</td>
+                <td>{reserva.email}</td>
                 <td>{reserva.comensales}</td>
               </tr>
             )

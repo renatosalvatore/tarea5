@@ -6,7 +6,7 @@ import { Table } from 'react-bootstrap';
 function Productos() {
 const [productos, setProductos] = useState([])
 const getProductos = async() =>{
-  await fetch ("http://localhost:3002/Productos/getProdList")
+  await fetch ("https://bcknd-tarea5.onrender.com/Productos/getProdList")
   .then(resultado =>  resultado.json()).then(respuesta => {
     setProductos (respuesta.data)
     })

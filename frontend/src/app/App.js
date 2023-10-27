@@ -10,6 +10,7 @@ import Singin from '../components/singin/Singin';
 import Productos from '../components/Productos/Productos';
 //import Login from '../components/Login/Login'
 import Singup from '../components/SingUp/Singup';
+import Productos1 from '../components/Productos/Productos1';
 //import homeData from '../components/dataPage'
 //import {UserContext}  from '../Context/UserContext';
 //import {useContext}  from 'react'
@@ -30,7 +31,8 @@ function App() {
         <Route path='/Reservaciones' element={<Reservas />} />
         <Route path='/Reserva1' element={<Reserva1 />} />
         <Route path='/SingUp' element={<Singup/>} />
-         <Route path='/Singin' element={<Singin />} />
+        <Route path='/Singin' element={<Singin />} />
+        <Route path='/Productos1' element={<Productos1 />} />
         <Route path='*' element={<main style={{ padding: "1rem" }}><p>UPS!, esta Página no está disponible!</p></main>} />
       </Routes>
 

@@ -22,7 +22,7 @@ function Reserva1() {
     event.preventDefault();//mantiene la pantalla en el estado que se encuentra y no la pantalla
     console.log(formData);
 
-   await fetch("http://localhost:3002/reservas/crearReserv", {
+   await fetch("https://bcknd-tarea5.onrender.com/reservas/crearReserv", {
       method: "POST",
       headers: {
           "Content-Type": "application/json"

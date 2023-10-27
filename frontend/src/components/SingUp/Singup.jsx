@@ -22,8 +22,9 @@ function Singup() {
     const  onSave = async (event) =>{
       event.preventDefault();//mantiene la pantalla en el estado que se encuentra y no la pantalla
       console.log(formData);
-  
-     await fetch("http://localhost:3002/auth/singUp", {
+      
+      //http://localhost:3002
+     await fetch("https://bcknd-tarea5.onrender.com/auth/singUp", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
