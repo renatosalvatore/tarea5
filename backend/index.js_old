@@ -1,0 +1,20 @@
+const express = require ("express")
+const cors = require ("cors")
+
+const server = express()
+
+server.use(cors())
+
+server.use(express.json())
+
+const port = 3001;
+
+server.get("/apirestaurante",(request,response)=>{
+
+    response.send("apirenato")
+})
+server.listen(port,()=>{
+
+    console.log("Servidor iniciado");
+}
+)

@@ -1,0 +1,59 @@
+.navegador{
+    background-color: rgb(53, 7, 37);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    position: sticky;
+    border: none;
+
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    padding:  0 24px;
+
+}
+
+.navMenu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navItem{
+    height: 80px;
+}
+
+.navLink{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding:  0 1rem;
+    height: 100%;
+    cursor: pointer;
+}
+
+.navLink:hover {
+    background: rgb(94, 157, 239);
+  }
+
+.logoNav{
+    color: rgb(255, 255, 255);
+    justify-self: flex-start;
+    cursor: pointer;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    font-family: 'Yuji Boku', serif;
+    margin-left: 24px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}

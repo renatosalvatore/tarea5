@@ -1,0 +1,89 @@
+.abtContenedor{
+    background-color: rgb(4, 75, 103);
+}
+
+.wrapper{
+    display: grid;
+    z-index: 1;
+    height: 560px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 24px;
+    justify-content: center;
+}
+
+.row{
+    display: grid;
+    grid-auto-columns: minmax(auto, 1fr);
+    align-items: center; 
+    grid-template-areas: "col2 col1"
+}
+
+.column1{
+    margin-bottom: 20px;
+    border-radius: 30px;
+
+    padding: 0 15px;
+    grid-area: col1;
+}
+
+.column2{
+    margin-bottom: 20px;
+    border-radius: 30px;
+
+    padding: 0 15px;
+    grid-area: col2;
+}
+
+.text-wrap{
+    max-width: 540px;
+    padding-top:0;
+    padding-bottom: 60px;
+}
+
+.heading{
+    color: rgb(198, 218, 215);
+    border-radius: 30px;
+
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    margin-bottom: 16px;
+}
+
+.topLine{
+    margin-bottom: 24px;
+    color: rgb(249, 250, 247);
+    font-size: 52px;
+    line-height: 1.1;
+    font-weight: 600;
+}
+
+.subtitle{
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(144, 188, 180);
+}
+
+.btnWrapC{
+    display: flex;
+    justify-content: center; 
+}
+
+.imgWrapC{
+    max-width: 555px;
+    height: 100%;
+    border-radius: 30px;
+
+}
+
+.imgConocenos{
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    border-radius: 30px;
+
+}
