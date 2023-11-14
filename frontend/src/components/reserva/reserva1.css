@@ -1,0 +1,14 @@
+.form-contenedor1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-reserva1{
+    border: 2px solid rgb(103, 172, 20);
+    padding: 25px;
+    border-radius: 30px;
+    background-color: aliceblue;
+}
